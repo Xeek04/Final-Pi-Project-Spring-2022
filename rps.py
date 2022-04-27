@@ -1,5 +1,5 @@
 from random import randint
-
+########################
 play = input("Pick s for scissor, r for rock and p for paper: ")
 
 if(play=="s"):
