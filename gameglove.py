@@ -28,30 +28,6 @@ def gamePlay(a, b):
         else:
             return "Tie"
 
-def gamePlay(a, b):
-    if(a==0):
-        if(b==0):
-            return "Tie!!"
-        elif(b==1):
-            return "Bot wins!!"
-        else:
-            return "Player wins!!"
-        
-    elif(a==1):
-        if(b==1):
-            return "Tie!!"
-        elif(b==2):
-            return "Bot wins!!"
-        else:
-            return "Player wins!!"
-
-    elif(a==2):
-        if(b==0):
-            return "Bot wins!!"
-        elif(b==1):
-            return "Player wins!!"
-        else:
-            return "Tie"
 
 while(botwin < 3 and playerwin < 3):
     
